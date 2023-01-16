@@ -1,0 +1,30 @@
+.contact{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:10vw 10vw;
+    padding:2%;
+    border:10px groove #586994;
+    border-radius: 6%;
+    margin:2%;
+    font-size: x-large;
+    background-color: #a29c9b;
+}
+.contact h1{
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__why,.contact__FAQ{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+.contact__form{
+    margin-top:100px;
+    width:30%;
+
+}
+.contact__form button{
+    font-size: larger;
+}
